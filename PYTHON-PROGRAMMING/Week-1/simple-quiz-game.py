@@ -43,6 +43,8 @@ def run_quiz():
         
         user_answer = input("Please enter the letter of your answer: ").upper()
 
+        # Check if the user's answer is in the options
+        # and compare it with the correct answer
         if user_answer in options:
             selected_index = options.index(user_answer)
             if quiz["options"][selected_index] == quiz["answer"]:
