@@ -112,9 +112,6 @@ main p {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-
-
-
 .about-section h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
@@ -283,6 +280,28 @@ main p {
 .project-card .btn:hover {
   background-color: #a445b2;
 }
+
+.contact-section {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #ba76fa, #3794f1);
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 700px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+}
+
 
 
 /* Intro Container Styles */
