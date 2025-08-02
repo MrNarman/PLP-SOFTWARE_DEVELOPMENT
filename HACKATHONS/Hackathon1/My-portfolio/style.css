@@ -103,7 +103,7 @@ main p {
 }
 
 /* About Section Styles */
-#about {
+/* #about {
   padding: 4rem 2rem;
   background: linear-gradient(to right, #003366, #6a11cb);
   color: #fff;
@@ -154,7 +154,107 @@ main p {
 .about-item .button:hover {
   background-color: #6a11cb;
   transform: scale(1.05);
+} */
+ /* === About Me Section === */
+.about-section {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #8427db, #043a70);
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #8a2be2; /* Purple border for vibrance */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-text h3 {
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.about-table {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about-table td {
+  padding: 6px 10px;
+  font-size: 0.95rem;
+  vertical-align: top;
+  color: #000000;
+}
+
+.about-table td:first-child {
+  font-weight: bold;
+  width: 30%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6c1fb0;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+}
+
 
 /* Intro Container Styles */
 .intro-container {
