@@ -165,11 +165,14 @@ main p {
   vertical-align: top;
   color: #000000;
 }
-
-/* .about-table td:first-child {
-  font-weight: bold;
-  width: 30%;
-} */
+.about-table caption {
+    caption-side: top;        /* Ensures it's above the table */
+    text-align: left;         /* Aligns the caption to the left */
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #000;
+}
 
 .btn {
   display: inline-block;

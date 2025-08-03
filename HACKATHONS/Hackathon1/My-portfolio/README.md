@@ -60,16 +60,20 @@ You can view or run this portfolio in two ways:
 Once hosted, you can view the portfolio via the following URL:
 
 ```bash
-https://your-username.netlify.app
+https://narman-godrick.netlify.app/
 ```
 ###  Option 2: Run Locally
 1. Clone the repository
 ```bash
-git clone https://github.com/MrNarman/your-portfolio-repo.git
-cd your-portfolio-repo
+git clone https://github.com/MrNarman/my-portfolio-254.git
+cd my-portfolio-254
 ```
 2. Open the `index.html` file in your browser
 
+3. Clone the whole PLP repo and navigate to the Hackathons directory. It will be in the Hackathon1 directory
+```bash
+git clone https://github.com/MrNarman/PLP-SOFTWARE_DEVELOPMENT.git
+```
 ---
 
 ## 📬 Contact Me
@@ -77,7 +81,7 @@ cd your-portfolio-repo
 Have a collaboration idea or opportunity? Let’s connect!
 
 📝 **Contact Form**  
-Submit a message through the [embedded Google Form](#contact).
+Submit a message through the [embedded Google Form](https://narman-godrick.netlify.app/#contact).
 
 ---
 
