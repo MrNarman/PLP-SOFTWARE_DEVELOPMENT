@@ -1,6 +1,10 @@
 # Godrick NARMAN Mwani: Portfolio Challenge 🚀
-
-Welcome to my submission for the PLP Academy Portfolio Challenge! 👋  
+### View The hosted Version: 
+```bash
+https://narman-godrick.netlify.app/
+```
+---
+`Welcome` to my submission for the PLP Academy Portfolio Challenge! 👋  
 This is a clean, personal portfolio website built with HTML and CSS to showcase my skills, projects, and passion in the tech space.
 
 
