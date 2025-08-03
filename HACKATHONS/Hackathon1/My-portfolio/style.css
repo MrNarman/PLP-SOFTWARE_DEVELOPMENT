@@ -166,10 +166,10 @@ main p {
   color: #000000;
 }
 
-.about-table td:first-child {
+/* .about-table td:first-child {
   font-weight: bold;
   width: 30%;
-}
+} */
 
 .btn {
   display: inline-block;
