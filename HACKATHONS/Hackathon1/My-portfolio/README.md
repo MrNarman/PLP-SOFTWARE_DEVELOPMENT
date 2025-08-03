@@ -1,35 +1,65 @@
-# Godrick Narman | Portfolio
+# July 2025 Cohort Hackathon 1: Portfolio Challenge 🚀
 
-Welcome to my personal portfolio website. A digital showcase of who I am, what I build, and where I’m heading in the tech space. This project is to serve as my upfront representation of me on the internet.
+Welcome to my submission for the PLP Academy Portfolio Challenge! 👋  
+This portfolio reflects who I am, what I do, and the journey I'm building in tech.
 
-## 🔗 Live Preview
-🌍 {Place preview link here}
+---
 
-## 📄 Features
-- Clean, responsive layout built with **HTML & CSS only**
-- Stylish gradient background and animated UI elements
-- Dedicated sections: About Me, Skills, Education, Interests, Projects, Contact Form
-- Downloadable CV included
-- Light and fast
+## 🌟 About Me
 
-## 🎓 About Me
-I’m **Godrick Narman**, a purpose-driven tech enthusiast deeply passionate about AI, Machine Learning, and creative problem-solving. This portfolio reflects my journey and my dream to build lasting innovations.
+Hi! I’m **Godrick Narman Mwani**, a purpose-driven individual passionate about **Technology, AI, and Machine Learning**. I enjoy building, learning, and exploring the frontiers of software development while staying rooted in creativity and consistency.
 
-## 💼 Technologies Used
-- HTML5
-- CSS
-- No external frameworks
+---
 
-## 🛠️ How to Run
-1. Clone this repository:
-   ```bash
-   git clone {Place project link here}
+## 💻 Programming Languages
 
-2. Open `index.html` in your preferred browser.
+- **Python**
+- **HTML**
+- **CSS**
 
-## Connect With Me:
-💼 [Linkedin](https://www.linkedin.com/in/godrick-mwani-856415262/)
+---
 
-💻 [GitHub](https://github.com/MrNarman)
+## 🎓 Educational Background
 
-✉️ godricknarman21@gmail.com
+I’m currently pursuing a **BSc. in Computer Science & Technology** at **Maseno University**.
+
+📄 *You can download my CV from the About section of the portfolio.*
+
+---
+
+## 💡 Tech Interests
+
+- Artificial Intelligence
+- Machine Learning
+- Software Development
+
+---
+
+## 🛠️ Projects
+
+### 🕹️ Tic Tac Toe Game
+A fun command-line Python game built with logic to challenge and entertain users.
+
+### 🌐 Personal Portfolio
+The portfolio you're viewing now — designed to showcase my skills, background, and passion in tech.
+
+---
+
+## 📬 Contact Me
+
+Have a collaboration idea or opportunity? Let’s connect!
+
+📝 **Contact Form**  
+Submit a message through the [embedded Google Form](#contact).
+
+---
+
+## 🔗 Socials
+
+- [GitHub](https://github.com/MrNarman)
+- [LinkedIn](https://www.linkedin.com/in/godrick-mwani-856415262/)
+- Email: **godricknarman@gmail.com**
+
+---
+“Brutal determination and consistency is hard to beat.” – *Tate*
+
