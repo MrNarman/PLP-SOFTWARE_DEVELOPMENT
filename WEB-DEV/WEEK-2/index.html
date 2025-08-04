@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Week 2</title>
+        </head>
+        <body>
+            <h1> Enhanced HTML Elements</h1>
+            <h2> Definition List</h2>
+
+            <dl>
+                <dt>USA</dt>
+                <dd>United States of America</dd>
+                <dt>UK</dt>
+                <dd>United Kingdom</dd>
+                <dt>UAE</dt>
+                <dd>United Arab Emirates</dd>
+            </dl>
+
+            <h2> Nested List</h2>
+            <ol type="1">
+                <li> Cars
+                    <ol>
+                        <li type="a"> Toyota
+                            <ol type="i">
+                                <li>Corolla</li>
+                                <li>Camry</li>
+                                <li>RAV4</li>
+                            </ol>
+                        </li>
+
+                    </ol>
+                </li>
+
+                <li> Bikes
+                    <ol>
+                        <li type="a"> Yamaha
+                            <ol type="i">
+                                <li>FZ</li>
+                                <li>R15</li>
+                                <li>MT-15</li>
+                            </ol>
+                        </li>
+            </ol>
+            <h1> Multimedia </h1>
+
+            <img src="ironman.jpg" 
+            alt="Iron man" width="500" height="300">
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video</h3>
+            <video width="320" height="240" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h2>Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Capital</th>
+                        <th>Population</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>USA</td>
+                        <td>Washington, D.C.</td>
+                        <td>331 million</td>
+                    </tr>
+                    <tr>
+                        <td>UK</td>
+                        <td>London</td>
+                        <td>67 million</td>
+                    </tr>
+                    <tr>
+                        <td>UAE</td>
+                        <td>Abu Dhabi</td>
+                        <td>9.3 million</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Form</h2>
+            <form action="https://example.com/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="gender">Gender: </label>
+                <input type="radio" id="Male" name="gender" value="Male">Male
+                <input type="radio" id="Female" name="gender" value="Female">Female
+                <br><br>
+                
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="UAE">UAE</option>
+                </select>
+                <br><br>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+        </body>
+    </html>
