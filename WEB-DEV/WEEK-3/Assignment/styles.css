@@ -1,0 +1,31 @@
+body{
+    background-color: grey;
+}
+
+#main-nav{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: darkblue;
+    background-color: wheat;
+    padding:40px ;
+    border: 50px solid red;
+    border-radius: 5px;
+    margin: 22px;
+    
+}
+
+.second-paragraph{
+    font-size: 18px;
+    color: darkgreen;
+    background-color: lightyellow;
+    padding: 30px;
+    border: 20px solid blue;
+    border-radius: 10px;
+    margin: 15px;
+}
