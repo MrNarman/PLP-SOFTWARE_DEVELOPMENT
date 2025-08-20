@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Sample Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>    
+                <th>Country</th>    
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>25</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Aisha Khan</td>
+                <td>28</td>
+                <td>UAE</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="right">Total</td>
+            </tr>
+        </tbody>
+
+        
+    </table>
+    <br>
+
+        <audio controls >
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+
+        </audio>
+    
+    <br>
+    <br>
+
+        <video controls poster muted width="320" height="240">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+
+        </video>
+
+    <br>
+    <br>
+
+    <span>
+        <label for="username">Username:</label>
+        <input type='text' name="username" placeholder="Enter your username" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type='email' name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type='text' name="phone" pattern="[0-9]{10}" placeholder="Enter your phone number" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type='password' name="password" placeholder="Enter your password" required>
+        <br><br>
+        <input type='submit' value="Login">
+        <br><br>
+        <label for="comments">Comments:</label>
+        <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea>
+        <br><br>
+
+        <select name="country">
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="UAE">UAE</option>
+        </select>
+        <br><br>
+
+    </span>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </fieldset>
+    <br><br>
+
+    <fieldset >
+        <legend>Contact Information</legend>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            <br>Delectus perspiciatis, dolore iusto quae id dignissimos. 
+            <br>Exercitationem, atque recusandae eligendi neque odit 
+            <br> temporibus molestiae minus, autem esse, voluptas ullam ea hic?</p>
+    </fieldset>
+
+</body>
+</html>

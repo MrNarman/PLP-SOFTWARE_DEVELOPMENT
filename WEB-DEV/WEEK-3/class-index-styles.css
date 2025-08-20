@@ -1,0 +1,37 @@
+/*Tag selector */
+h1{
+    font-family: "Press Start 2P", "consolas","sans-serif";
+    font-size:xx-large;
+    font-weight:bold;
+    color: white;
+    text-align:center;
+}
+
+body{
+    background-color:lightblue;
+}
+
+/* ID selector */
+#bumblebee{
+    width: 200px;
+    text-align: left;
+    background-color:yellow;
+}
+
+
+#description{
+    width: 400px;
+    text-align: left;
+    background-color:yellow;
+}
+
+/* Class selector */
+.anime{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 200px;
+    text-align: left;
+    background-color:yellow;
+}
